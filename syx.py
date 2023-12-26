@@ -1,4 +1,4 @@
-#SC OWNER_______________CAUIOS
+#OWNER_______________CAUIOS
 fbks=('com.facebook.adsmanager','com.facebook.lite','com.facebook.orca','com.facebook.katana')
 g1=('A');g2=('K');g3=('I');g4=('N');g5=('G');g6=('1');g7=('1');g8=('0');pr=('-P');pr1=('R');pr2=('O')
 ghb=g1+g2+g3+g4+g5+g6+g7+g8
@@ -12,7 +12,7 @@ import os,base64,zlib,platform
 from urllib.request import parse_http_list
 print('\n [•] Wait Installing Modules...!')
 #os.system("pip uninstall urllib3 requests chardet idna certifi -y");os.system("pip install urllib3 requests chardet idna certifi")
-os.system('xdg-open https://chat.whatsapp.com/G8SCDMMvgiN3yCYGORqHU0')
+os.system('xdg-open https://www.facebook.com/100070381185852 ')
 print(' ')
 from bs4 import BeautifulSoup as sop
 try:
