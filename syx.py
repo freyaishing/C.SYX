@@ -1,4 +1,4 @@
-#SC OWNER_______________FAHAD
+#SC OWNER_______________CAUIOS
 fbks=('com.facebook.adsmanager','com.facebook.lite','com.facebook.orca','com.facebook.katana')
 g1=('A');g2=('K');g3=('I');g4=('N');g5=('G');g6=('1');g7=('1');g8=('0');pr=('-P');pr1=('R');pr2=('O')
 ghb=g1+g2+g3+g4+g5+g6+g7+g8
