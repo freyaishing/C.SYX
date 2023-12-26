@@ -87,7 +87,7 @@ def F1():
 	kt = random.choice(['com.facebook.katana','com.facebook.orca','com.facebook.mlite'])
 	fbcr = random.choice(['o2 - de', 'Verizon - us','MY CELCOM','Vodafone - uk','null','DTAC','IND airtel','Nepal Telecom'])
 	s= "[FBAN/FB4A;FBAV/"+str(random.randint(111,999))+'.0.0.'+str(random.randrange(9,99))+str(random.randint(111,999)) +";FBBV/"+str(random.randint(111111111,999999999))
-	e = ";[FBAN/FB4A;FBAV/309.0.0.47.119;FBBV/277444756;FBDM/{density=3.0,width=1080,height=1920};FBLC/"+en+";FBRV/279865282;FBCR/"+fbcr+";FBMF/samsung;FBBD/samsung;FBPN/"+kt+";FBDV/SM-G930F;FBSV/8.0.0;FBOP/19;FBCA/armeabi-v7a:armeabi;]"
+	e = ";[FBAN/FB4A;FBAV/509.0.0.9267;FBBV/953372558;FBDM/{density=2.0,width=2560,height=1600};FBLC/"+en+";FBRV/0;FBCR/"+fbcr+";FBMF/X6525;FBBD/X6525;FBPN/"+kt+";FBDV/Infinix;FBSV/11;FBOP/1;FBCA/x86:arm64-v8a;]"
 	ua = s + e	
 	return ua
 
