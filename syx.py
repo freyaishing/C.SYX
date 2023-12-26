@@ -296,7 +296,7 @@ def menu():
                         if xd in ['1','01']:
                                 clear()
                                 
-                                print(' \033[1;32mPut File Example :  /sdcard/csyx.')
+                                print(' \033[1;32mPut File Example :  /sdcard/csyx.txt')
                                 line()
                                 file = input(' Put File Path\033[1;37m: ')
                                 try:
